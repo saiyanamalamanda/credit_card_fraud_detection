@@ -6,8 +6,8 @@ This project implements a Credit Card Fraud Detection model using machine learni
 
 ## Dataset
 
-- The dataset contains transaction details such as amount, merchant details, timestamps, etc.
-- The target variable (`Class`) indicates whether a transaction is **fraudulent (1) or legitimate (0).
+- The dataset contains transaction details such as **amount, merchant details, timestamps**, etc.
+- The target variable (`Class`) indicates whether a transaction is **fraudulent (1) or legitimate (0)**.
 - Addressed class imbalance using **SMOTE (Synthetic Minority Over-sampling Technique)**.
 
 ## Features Engineering
@@ -29,7 +29,9 @@ This project implements a Credit Card Fraud Detection model using machine learni
 
 To run this project, install the required dependencies:
 
+```bash
 pip install pandas numpy scikit-learn imbalanced-learn xgboost matplotlib seaborn joblib
+```
 
 ## Model Training
 
@@ -54,21 +56,22 @@ The model successfully detects fraudulent transactions while maintaining a low f
 
 Run the Python script:
 
+```bash
 python creditcardfraud_detection.py
-
+```
 
 ## GitHub Repository
 
 To push this project to GitHub:
 
-
+```bash
 git init
 git add .
 git commit -m "Initial commit - Fraud detection model"
 git branch -M main
 git remote add origin https://github.com/saiyanamalamanda/credit_card_fraud_detection
 git push -u origin main
-
+```
 
 ## License
 
